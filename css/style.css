@@ -1,0 +1,289 @@
+@import "null.css";
+
+@font-face {
+  font-family: Appetite;
+  src: url("../fonts/appetite-italic.woff") format("woff"),
+    url("../fonts/appetite-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Madelikesslab;
+  src: url("../fonts/madelikesslab.woff") format("woff"),
+    url("../fonts/madelikesslab.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Monly;
+  src: url("../fonts/monly_serif.woff") format("woff"),
+    url("../fonts/monly_serif.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Monly;
+  src: url("../fonts/monly_serif_bold.woff") format("woff"),
+    url("../fonts/monly_serif_bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Nautiluspompilius;
+  src: url("../fonts/nautiluspompilius.woff") format("woff"),
+    url("../fonts/nautiluspompilius.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Philosopher;
+  src: url("../fonts/philosopher_bold_italic.woff") format("woff"),
+    url("../fonts/philosopher_bold_italic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Philosopher;
+  src: url("../fonts/philosopher_italic.woff") format("woff"),
+    url("../fonts/philosopher_italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Tangak;
+  src: url("../fonts/tangak.woff") format("woff"),
+    url("../fonts/tangak.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+/*
+   font-family: Madelikesslab, sans-serif;
+   font-weight: 400;
+
+   font-family: Appetite, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+
+   font-family: Monly, sans-serif;
+   font-weight: 700;
+   font-weight: 400;
+
+font-family: Nautiluspompilius, sans-serif;
+   font-weight: 400;
+
+   
+
+   font-family: Philosopher, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   font-weight: 700;
+*/
+
+[class*="__container"] {
+  max-width: 1030px;
+  margin: 0px auto;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  background: url("../img/mountains.jpg") 0 0 / 100% auto no-repeat fixed;
+}
+.header {
+  background-color: rgba(23, 9, 88, 0.363);
+  min-height: 90px;
+  margin: 0 0 30px 0;
+}
+.header__container {
+  padding: 50px 0;
+  background-color: rgba(63, 63, 235, 0.438);
+  box-shadow: 20px 15px 10px 10px rgba(23, 8, 88, 0.404);
+}
+.header__container p {
+  color: rgb(243, 244, 245);
+  min-height: 50px;
+  text-align: center;
+  font-family: Appetite, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 50px;
+}
+.main {
+}
+.main__container {
+}
+.main-target {
+}
+.image {
+}
+.main-image {
+}
+.image-button {
+  text-align: center;
+}
+.button-beauty {
+  padding: 20px 30px;
+  background-color: rgb(4, 65, 41);
+  color: rgb(220, 227, 233);
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  box-shadow: 0 15px 15px 0 #000;
+}
+.button-beauty:hover {
+  margin: 4px 0 0 0;
+  box-shadow: 0 10px 10px 0 #000;
+  background-color: rgb(5, 102, 63);
+}
+.button-beauty:active {
+  margin: 5px 0 0 0;
+  box-shadow: 0 5px 5px 0 #000;
+  background-color: rgb(10, 133, 84);
+}
+.button-houses {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: rgb(4, 65, 41);
+  color: rgb(220, 227, 233);
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  box-shadow: 0 15px 15px 0 #000;
+}
+.button-houses:hover {
+  margin: 4px 0 0 0;
+  box-shadow: 0 10px 10px 0 #000;
+  background-color: rgb(5, 102, 63);
+}
+.button-houses:active {
+  margin: 5px 0 0 0;
+  box-shadow: 0 5px 5px 0 #000;
+  background-color: rgb(10, 133, 84);
+}
+.button-sky {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: rgb(4, 65, 41);
+  color: rgb(220, 227, 233);
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  box-shadow: 0 15px 15px 0 #000;
+}
+.button-sky:hover {
+  margin: 4px 0 0 0;
+  box-shadow: 0 10px 10px 0 #000;
+  background-color: rgb(5, 102, 63);
+}
+.button-sky:active {
+  margin: 5px 0 0 0;
+  box-shadow: 0 5px 5px 0 #000;
+  background-color: rgb(10, 133, 84);
+}
+.image-beauty {
+  padding: 20px;
+  background: url("../img/Switzerland/beauty.jpg") center / cover no-repeat;
+  min-width: 600px;
+  min-height: 700px;
+  color: rgb(243, 243, 229);
+  font-family: Philosopher, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 40px;
+  display: none;
+}
+.image-beauty:target {
+  display: block;
+}
+.image-houses {
+  padding: 20px;
+  background: url("../img/Switzerland/houses.jpg") center / cover no-repeat;
+  min-width: 600px;
+  min-height: 700px;
+  color: rgb(24, 24, 21);
+  font-family: Philosopher, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  border-radius: 30px;
+  display: none;
+}
+.image-houses:target {
+  display: block;
+}
+.image-sky {
+  padding: 20px;
+  background: url("../img/Switzerland/sky.jpg") center / cover no-repeat;
+  min-width: 600px;
+  min-height: 700px;
+  color: rgb(13, 4, 92);
+  font-family: Philosopher, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  border-radius: 30px;
+  display: none;
+}
+.image-sky:target {
+  display: block;
+}
+.image-first {
+  margin: 0 0 30px 0;
+}
+.image-text {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: Nautiluspompilius, sans-serif;
+  font-weight: 400;
+  margin: 30px 0 20px 0;
+}
+
+.walk {
+  /*
+   background: url("../img/Jeka/avatar.jpg") center no-repeat, url("../img/Switzerland/train.webp") center / 800px no-repeat;
+   min-height: 600px;
+   min-width: 600px;*/
+}
+.walk-advice li {
+  color: rgb(255, 255, 255);
+  margin: 0 0 20px 0px;
+  font-size: 20px;
+  transition: all 0.3s ease 0s;
+  padding: 0 0 0 60px;
+}
+.walk-advice li::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/icons/li.svg") 0 5px / 20px no-repeat;
+  min-width: 20px;
+  min-height: 20px;
+  margin: 0 20px 0 -40px;
+  transition: all 0.3s ease 0s;
+}
+.walk-advice li:hover::before {
+  content: "";
+  display: inline-block;
+  background-size: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  margin: 0 20px 0 -50px;
+  transform: rotate(360deg) scale(1.3);
+}
+.walk-advice li:hover {
+  font-size: 40px;
+  padding: 0 0 0 50px;
+}
+
+.footer {
+}
+.footer__container {
+}
